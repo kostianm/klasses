@@ -31,7 +31,7 @@ id
 //         console.log(this.booksshelf);
 //         return this.booksshelf!==null
 //     }
-//     isRent(userId) {
+//     getRent(userId) {
 //         if (this.isVacant()) {
 //         return this.booksshelf = null, this.userId = userId;
 //     } else {
@@ -56,9 +56,9 @@ id
 // console.log(goldenBug);
 // console.log(user1);
 // console.log(goldenBug.isVacant());
-// console.log(goldenBug.isRent(200001));
+// console.log(goldenBug.getRent(200001));
 // console.log(goldenBug);
-// console.log(goldenBug.isRent(200002));
+// console.log(goldenBug.getRent(200002));
 
 /*2. Створити клас для опису абстрактної тварини і два класи для тварин Тигр та Вовк, які його розширюють. Батьківський клас має реалізувати методи hunting та growl (робота методів - вивести в консоль рядок типу “зараз дожену здобич” та “грррррр”), а тигр та вовк мають реалізувати однойменні методи по-своєму (наприклад, виводити “тигр з’їсть тебе”). Створити декілька екземплярів класу Тигр і Вовк і перевірити, чий метод викликається - класу-дитини або абстрактного батьківського класу
  * 
